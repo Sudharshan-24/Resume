@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcyan;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.page-container {
+    max-width: 1400px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container {
+    padding: 0 8px;
+}
+
+.left-column {
+    padding: 0 8px;
+    float: left;
+}
+
+@media screen and (min-width: 601px) {
+    .left-column {
+        width: 25.33%;
+    }
+}
+
+.inside-left-column {
+    color: darkcyan;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.profile-section,
+.about-section {
+    padding: 0.01em 16px;
+}
+
+.profile-pic {
+    text-align: center;
+    margin-right: 16px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.my-name {
+    font-size: 24px;
+    font-weight: 800;
+    color: darkcyan;
+    letter-spacing: 1.5px;
+}
+
+.fa-left-sec {
+    width: 2em;
+    text-align: center;
+    margin-right: 16px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+a.gmail {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid cyan;
+    margin: 20px 0;
+}
+
+.skills-section,
+.language-section,
+.interest-section,
+.social-media-section,
+.certificate-section {
+    font-size: 18px;
+}
+
+table {
+    margin-left: 50px;
+}
+
+td {
+    padding: 5px;
+}
+
+a.social {
+    text-decoration: none;
+    font-size: 18px;
+    color: darkcyan;
+    padding: 8px;
+}
+
+a.social:hover,
+a.gmail:hover {
+    color: darkmagenta;
+}
+
+.right-column {
+    padding: 0 8px;
+    float: left;
+}
+
+@media screen and (min-width: 601px) {
+    .right-column {
+        width: 72.66%;
+    }
+}
+
+.inside-right-column {
+    background-color: whitesmoke;
+    margin-bottom: 16px;
+    padding: 0.01em 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.work-experience,
+.my-education,
+.my-projects {
+    color: darkcyan;
+    padding: 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.my-laptop,
+.my-graduation,
+.projects {
+    text-align: center;
+    color: darkcyan;
+    margin-right: 16px;
+    font-size: 26px;
+}
+
+.experience,
+.education,
+.projects-done {
+    padding: 0.01em 16px;
+}
+
+.role,
+.study,
+.project {
+    opacity: 0.60;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.from-to {
+    color: darkcyan;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.fa-right-sec {
+    text-align: center;
+    margin-right: 16px;
+    color: darkcyan;
+    font-size: 18px;
+}
+
+.present {
+    color: whitesmoke;
+    background-color: darkcyan;
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.score,
+.short-note {
+    color: darkcyan;
+}
