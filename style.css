@@ -185,3 +185,12 @@ a.gmail:hover {
 .short-note {
     color: darkcyan;
 }
+
+.challenge {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.challenge:hover {
+    color: darkmagenta;
+}
